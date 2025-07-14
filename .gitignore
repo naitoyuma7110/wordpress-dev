@@ -1,0 +1,99 @@
+# Environment variables
+.env
+
+# WordPress core files (will be downloaded by wp-cli)
+wp-data/wp-config.php
+wp-data/wp-admin/
+wp-data/wp-includes/
+wp-data/wp-content/uploads/
+wp-data/wp-content/upgrade/
+wp-data/wp-content/backup-db/
+wp-data/wp-content/cache/
+wp-data/wp-content/backups/
+wp-data/wp-content/plugins/
+wp-data/wp-content/languages/
+wp-data/wp-content/themes/twentytwentythree/
+wp-data/wp-content/themes/twentytwentyfour/
+wp-data/wp-content/themes/twentytwentyfive/
+wp-data/wp-*.php
+wp-data/xmlrpc.php
+wp-data/wp-cron.php
+wp-data/wp-links-opml.php
+wp-data/wp-load.php
+wp-data/wp-login.php
+wp-data/wp-mail.php
+wp-data/wp-settings.php
+wp-data/wp-signup.php
+wp-data/wp-trackback.php
+wp-data/index.php
+wp-data/license.txt
+wp-data/readme.html
+wp-data/wp-blog-header.php
+wp-data/wp-comments-post.php
+wp-data/wp-config-sample.php
+wp-data/wp-content/index.php
+
+# Database data
+db-data/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Backup files
+*.sql
+*.sql.gz
+backup/
+backups/
+
+# Node modules (if using any build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer
+vendor/
+composer.lock
+
+# WordPress specific
+wp-data/wp-content/advanced-cache.php
+wp-data/wp-content/wp-cache-config.php
+wp-data/.htaccess
+wp-data/wp-content/blogs.dir/
+wp-data/wp-content/upgrade/
+wp-data/wp-content/uploads/
+wp-data/wp-content/wp-cache/
+wp-data/wp-content/cache/
+wp-data/wp-content/backup-db/
+wp-data/wp-content/backups/
+wp-data/wp-content/blogs.dir/
+wp-data/wp-content/cache/
+wp-data/wp-content/upgrade/
+wp-data/wp-content/uploads/
+wp-data/wp-content/wp-cache/
+wp-data/wp-content/plugins/hello.php 

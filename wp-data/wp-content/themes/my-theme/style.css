@@ -1,0 +1,165 @@
+/*
+Theme Name: My Custom Theme
+Description: A custom WordPress theme for development
+Version: 1.0
+Author: Your Name
+Author URI: https://example.com
+License: GPL v2 or later
+Text Domain: my-theme
+*/
+
+/* Reset and base styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Arial", sans-serif;
+	line-height: 1.6;
+	color: #333;
+	background-color: #f4f4f4;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Header */
+.site-header {
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 1rem 0;
+}
+
+.site-title {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}
+
+.site-description {
+	color: #666;
+	margin-top: 0.5rem;
+}
+
+/* Navigation */
+.main-navigation {
+	background-color: #333;
+	padding: 1rem 0;
+}
+
+.main-navigation ul {
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+}
+
+.main-navigation a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.main-navigation a:hover {
+	color: #ddd;
+}
+
+/* Main content */
+.site-main {
+	padding: 2rem 0;
+}
+
+.content-area {
+	background-color: #fff;
+	padding: 2rem;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Posts */
+.post {
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #eee;
+}
+
+.post:last-child {
+	border-bottom: none;
+}
+
+.post-title {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+.post-title a {
+	color: #333;
+	text-decoration: none;
+}
+
+.post-title a:hover {
+	color: #666;
+}
+
+.post-meta {
+	color: #666;
+	font-size: 0.9rem;
+	margin-bottom: 1rem;
+}
+
+.post-content {
+	line-height: 1.8;
+}
+
+/* Sidebar */
+.widget-area {
+	background-color: #fff;
+	padding: 1.5rem;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.widget {
+	margin-bottom: 2rem;
+}
+
+.widget:last-child {
+	margin-bottom: 0;
+}
+
+.widget-title {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid #333;
+}
+
+/* Footer */
+.site-footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 2rem 0;
+	margin-top: 2rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+	.main-navigation ul {
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.container {
+		padding: 0 10px;
+	}
+
+	.content-area {
+		padding: 1rem;
+	}
+}
