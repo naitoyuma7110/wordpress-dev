@@ -2,7 +2,7 @@
 
 1. 開発環境
    - Dockerを使用してApatch、Mysqlを準備、Wordpressのインストール
-   - Git管理対象の開発対象のWordpressテーマのみ↑に差し込む
+   - Git管理対象の開発するWordpressテーマのみ↑に差し込む
 2. デプロイ方法
    - デプロイ先はWordpressインストール済のレンタルサーバ
    - Git管理対象のカスタムテーマをレンタルサーバー側でPull
